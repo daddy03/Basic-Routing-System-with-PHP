@@ -1,5 +1,8 @@
 .htaccess file required
 
+
 RewriteEngine On
+
 RewriteCond %{REQUEST_FILENAME} !-f
+
 RewriteRule ^ index.php [QSA,L]
